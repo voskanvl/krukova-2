@@ -1,0 +1,10 @@
+.adv {
+background-color: black;
+  background-image: url("../../media/background/black.jpg");
+  color: white;
+  font-family: "Roboto Condensed";
+  background-repeat: no-repeat;
+}
+.inverted {
+  filter: invert(100%);
+}

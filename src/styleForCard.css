@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Roboto|Roboto+Condensed&display=swap");
+div {
+  font-family: Roboto, Helvetica, Arial, sans-serif;
+  border: 1px black dashed;
+}
+img {
+  max-width: 12vw;
+  align-content: center;
+}
+.space {
+  perspective: 2000px;
+  perspective-origin: center;
+}
+#subspace {
+  position: absolute;
+  width: 36vw;
+  transform-origin: center;
+  transform-style: preserve-3d;
+  transition: ease 1s;
+}
+.face > img {
+  max-width: 100%;
+}
+.card {
+  position: relative;
+  transform-origin: center;
+}
+.card > div {
+  position: absolute;
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  top: 0;
+  left: 0;
+  width: 36vw;
+  height: 27vh;
+}
+.card > div > div {
+  padding: 0.5em;
+  overflow: scroll;
+}
+.blue {
+  background-color: rgba(173, 216, 230, 1);
+}
+.green {
+  background-color: rgba(144, 238, 144, 1);
+}
+.back {
+  transform: rotateY(180deg);
+}
+/* .rotated {
+  transform: rotateY(45deg);
+} */
+.cardHead {
+  text-align: center;
+}
+.description {
+  font-size: small;
+}
+#backward {
+  transform: translateZ(-1px);
+}
+#forward {
+  transform: translateZ(1px);
+}

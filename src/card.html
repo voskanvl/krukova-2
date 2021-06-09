@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styleForCard.css" />
+  </head>
+  <body>
+    <div class="space" id="space">
+      <div id="subspace">
+        <div class="card" id="card">
+          <div class="backward green back" id="backward">
+            <div class="face">
+              <img
+                src="../media/cosmetic/mask/99d57faab1df61108ed506653d1daa42.jpg"
+                alt=""
+              />
+            </div>
+            <div class="context">
+              <div class="cardHead">
+                <h2>
+                  МАСКИ
+                </h2>
+              </div>
+
+              <div class="description">
+                <table>
+                  <tbody>
+                    <tr>
+                      <td>Шоколадная маска</td>
+                      <td>1500 р.</td>
+                    </tr>
+                    <tr>
+                      <td>Огуречная маска</td>
+                      <td>1000 р.</td>
+                    </tr>
+                    <tr>
+                      <td>Маска из экстракта огавы</td>
+                      <td>1700 р.</td>
+                    </tr>
+                    <tr>
+                      <td>Маска аля Тартар в ассортименте</td>
+                      <td>1900 р.</td>
+                    </tr>
+                    <tr>
+                      <td>Маска с эффектом чистки кармы</td>
+                      <td>2100 р.</td>
+                    </tr>
+                    <tr>
+                      <td>Композитная, мелко дисперсная маска</td>
+                      <td>2500 р.</td>
+                    </tr>
+                    <tr>
+                      <td>Маска по методу «Деструктив ликвид»</td>
+                      <td>2700 р.</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <br />
+              <div class="label">нажав Вы можете увидить описание услуг</div>
+            </div>
+          </div>
+          <div class="forward blue" id="forward">
+            <div class="face">
+              <img
+                src="../media/cosmetic/mask/66ee43fc89697cfa5fe8a653de0c3396.jpg"
+                alt=""
+              />
+            </div>
+            <div class="context">
+              <div class="cardHead">
+                <h2>
+                  МАСКИ
+                </h2>
+              </div>
+              <div class="description">
+                Повседневная практика показывает, что укрепление и развитие
+                структуры обеспечивает широкому кругу (специалистов) участие в
+                формировании соответствующий условий активизации. Товарищи!
+                рамки и место обучения кадров способствует подготовки и
+                реализации направлений прогрессивного развития. Разнообразный и
+                богатый опыт рамки и место обучения кадров играет важную роль в
+                формировании системы обучения кадров, соответствует насущным
+                потребностям.
+              </div>
+              <br />
+              <div class="label">
+                нажав Вы можете увидить наши расценки на данный вид услуг
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script>
+      const el = document.querySelector("#subspace");
+      const bw = document.querySelector("#backward");
+      const fw = document.querySelector("#forward");
+
+      const rotate = i => {
+        el.style.transform = `rotateY(${i}deg)`;
+      };
+      let rpm = 0;
+      el.addEventListener("click", () => {
+        if (el.style.transform === "rotateY(180deg)")
+          el.style.transform = "rotateY(0deg)";
+        else el.style.transform = "rotateY(180deg)";
+      });
+    </script>
+  </body>
+</html>

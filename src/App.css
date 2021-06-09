@@ -1,0 +1,179 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Roboto|Roboto+Condensed&display=swap");
+@font-face {
+  font-family: "KZ Balmoral";
+  src: url("./media/fonts/17526.ttf");
+}
+@font-face {
+  font-family: "Snell Roundhand";
+  src: url("./media/fonts/ofont.ru_Snell_Roundhand.ttf");
+}
+body {
+  background-color: #ccaacc;
+  font-family: Roboto, Arial, Helvetica, sans-serif;
+}
+h1 {
+  font-family: "Snell Roundhand", Arial, Helvetica, sans-serif;
+  font-size: 5em;
+}
+h2 {
+  font-family: "Snell Roundhand", Arial, Helvetica, sans-serif;
+  font-size: 4em;
+}
+h3 {
+  font-family: "Snell Roundhand", Arial, Helvetica, sans-serif;
+  font-size: 3em;
+}
+h4 {
+  font-family: "Snell Roundhand", Arial, Helvetica, sans-serif;
+  font-size: 2.5em;
+}
+h5 {
+  font-family: "Snell Roundhand", Arial, Helvetica, sans-serif;
+  font-size: 2em;
+}
+.App {
+  text-align: center;
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+a {
+  color: #550755;
+}
+a:hover {
+  color: #ffccff;
+  text-shadow: 0 0 8px #440044;
+}
+.btn-link,
+.btn-link:active,
+.btn-link:focus,
+.btn-link:hover {
+  color: #220022;
+}
+h2 {
+  text-shadow: 0 0 8px black;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.nav-pills .nav-link.active {
+  background-color: #700070;
+}
+
+.tab-content {
+  /* background-image: url("./media/background/main.jpg"); */
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.modal-content {
+  border: none;
+  background-color: unset;
+}
+
+.card {
+  background-color: #eeaaee;
+}
+
+.my {
+  text-shadow: 0 0 8px black;
+  font-size: 1.7em;
+}
+.myimg {
+  box-shadow: 2px -2px 18px -10px #440044;
+}
+.tab-content {
+  margin: 1em;
+}
+.mytabcontent {
+  background-image: url("./media/background/main.jpg");
+  padding: 2em;
+}
+.myDarkBlock {
+  background-color: #440044;
+}
+.myLightBlock {
+  /* background-color: #bb88bb; */
+  padding: 2em;
+}
+/* --- for actions --- */
+.myactions {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+  flex-wrap: nowrap;
+  overflow: visible;
+}
+.action_container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+  padding: 0;
+  margin: 0;
+  height: 200px;
+  flex: 1 1 200px;
+  
+}
+.action_left {
+  background-image: url("./media/background/leftSide.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* width: 30%; */
+  height: 100%;
+  border-radius: 10px 0 0 10px;
+  box-shadow: -1px 3px 8px black;
+  flex: 1 1 ;
+}
+.action_right {
+  background-image: url("./media/background/rightSide.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* width: 70%; */
+  height: 100%;
+  border-radius: 0px 10px 10px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+  box-shadow: 1px 3px 8px black;
+  flex: 3 1 ;
+}
+.action_right > div {
+  text-align: center;
+}
+
+.action_title {
+  color: #400040;
+  font-weight: bold;
+}
+
+.action_amount {
+  font-size: 2em;
+}
+.action_bottom_title {
+  font-size: 0.7em;
+}
+.myborder {
+  border: 1px white solid;
+}

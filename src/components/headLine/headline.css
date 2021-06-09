@@ -1,0 +1,7 @@
+.h1 {
+  background-image: url("../../media/background/head.jpg");
+  background-repeat: no-repeat;
+  background-color: rgb(90, 0, 90);
+  color: whitesmoke;
+  font-family: "Snell Roundhand", Arial, Helvetica, sans-serif;
+}

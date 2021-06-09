@@ -1,0 +1,109 @@
+:root {
+  --off-white: #fafafa;
+}
+.nav {
+  top: 0px;
+  width: 100%;
+  height: 3em;
+  z-index: 1000;
+  box-shadow: 0 4px 14px 0 rgba(40, 0, 40, 0.5);
+  background-color: #804080;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.nav-logo {
+  height: 60px;
+  width: 60px;
+}
+
+.nav-logo:hover {
+  cursor: pointer;
+}
+
+.nav .navContent {
+  max-width: 1000px;
+  padding: 0rem 3rem;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+.navDescription {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+}
+.navDescription p {
+  margin: 0;
+  font-size: 0.9em;
+  text-align: center;
+}
+.navDescription h5 {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.navItem {
+  display: inline;
+  margin-left: 1rem;
+  color: #fff;
+  text-decoration: underline;
+}
+
+.navItem:hover {
+  color: black;
+  cursor: pointer;
+}
+
+.section {
+}
+
+.sectionDark {
+  background: #333;
+  color: white;
+}
+
+.sectionContent {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px;
+}
+.mymainheader {
+  width: 100%;
+  z-index: 1000;
+  background-color: #80408080;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: #fafafa;
+  background-image: url("../media/many_pretty_people/10_1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0 25%;
+
+}
+.sideImage {
+  position: fixed;
+  top: 0;
+  height: 120px;
+  z-index: 1010;
+}
+.sideImage > .left {
+  left: 0;
+}
+.sideImage .right {
+  right: 0;
+}
+.myNavStiky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 1009;
+}

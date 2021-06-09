@@ -1,0 +1,13 @@
+#clientsContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-image: url("../../media/background/bobbiBrown.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  text-align: center;
+}
+.clientsShadow {
+  box-shadow: 0px 0px 12px white;
+}
